@@ -314,7 +314,9 @@ footer {
   font-size: 0.75rem;
 }
 
-@media only screen and (max-width: 760px) and (min-width: 451px){
+/*Tablet*/
+
+@media only screen and (max-width: 760px) {
 
 
 /* Header */
@@ -399,9 +401,13 @@ br{
 
 }
 
-@media only screen and (min-device-width: 375px) 
+/*Mobile*/
+
+
+
+@media only screen 
 and (max-device-width: 450px) 
-and (-webkit-min-device-pixel-ratio: 3)
+
 {
  
   header {
